@@ -7,7 +7,7 @@ try:
       box_size=15,
       border=2,
    )
-   qr.add_data('http://mongodb-learning.vercel./')
+   qr.add_data('http://mongodb-learning.vercel.app/')
    qr.make(fit=True)
 
    img = qr.make_image(fill_color="black", back_color="white")
